@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.header {
+  background: #74C69D;
+  padding: 20px 120px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-content nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.welcome {
+  text-align: center;
+  margin: 50px 0;
+}
+
+button {
+  background-color: #50c878;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.partners,
+.team,
+.content {
+  padding: 50px 120px;
+  text-align: center;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+footer {
+  background-color: #50c878;
+  color: white;
+  padding: 50px 120px;
+  text-align: center;
+}
